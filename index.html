@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      transform: translateY(70px);
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="score-board">
+      <div class="title">
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <div class="score">
+        <p>score</p>
+        <h1>0</h1>
+      </div>
+    </div>
+
+    <div class="hands">
+      <div class="hand paper">
+        <img src="./images/icon-paper.svg" alt="">
+      </div>
+      <div class="hand scissor">
+        <img src="./images/icon-scissors.svg" alt="">
+      </div>
+      <div class="hand rock">
+        <img src="./images/icon-rock.svg" alt="">
+      </div>
+    </div>
+
+    <div class="pick">
+      <div class="pick-flex your-pick">
+        <h4>you picked</h4>
+        <div class="picked-img you-img">
+          <img src="./images/icon-paper.svg" alt="" width="80px">
+        </div>
+      </div>
+
+      <div class="win-lose">
+        <h2>you <span class="victory-status"></span></h2>
+        <button class="start">play again</button>
+      </div>
+
+      <div class="pick-flex comp-pick">
+        <h4>the house picked</h4>
+        <div class="picked-img comp-img">
+          <img src="./images/icon-scissors.svg" alt="" width="80px">
+        </div>
+      </div>
+    </div>
+
+    <div class="rules-btn">
+      <button>Rules</button>
+    </div>
+
+    <div class="rules">
+      <div class="rules-heading">
+        <h2>rules</h2>
+        <span class="material-symbols-outlined">close</span>
+      </div>
+      <img src="./images/image-rules.svg" alt="">
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Kayodejay"> Kayode Erioluwa</a>.
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
